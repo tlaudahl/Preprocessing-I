@@ -3,9 +3,9 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Oswald&display=swap" rel="stylesheet">  
   <title>My Resume</title>
-
   <link rel="stylesheet" href="css/index.css">
 
   <!--[if lt IE 9]>
@@ -14,6 +14,81 @@
 </head>
 
 <body>
-  <h1>My Resume</h1>
+  <header>
+    <nav>
+      <a href='#'>Home</a>
+      <a href='#'>About</a>
+      <a href='#'>Portfolio</a>
+      <a href='#'>Contact</a>
+    </nav>
+  </header>
+  <section>
+    <div class='ctaContainer'>
+        <img src='images/picture.jpg'>
+        <h1>Jonny Appleseed - Web Dev</h1>
+        <h3>Technology is my jam!</h3>
+        <p>Occasionally I have time to work on side projects, if you're interesed, let me know by signing up on this website</p>
+        <button>Lets Team Up!</button>
+    </div>
+  </section>
+  <section>
+    <div class='main'>
+      <div class='listen'>
+        <h2>Listen Up...</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit aliquid aspernatur quaerat pariatur saepe iusto, rem facere, rerum, praesentium quibusdam adipisci iure. Non, at sit nulla qui dolorem minima unde. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit laudantium ad dolorum beatae perferendis, eum modi quia veniam quisquam deleniti perspiciatis facere in quae ratione iure delectus voluptatum fugit ducimus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, natus libero similique vel officiis at harum impedit, repellat velit aliquam, sapiente quidem! Dolorum fuga vel ab expedita repudiandae quod sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis officia praesentium voluptatibus aut quasi distinctio quibusdam accusamus reiciendis tempora. Reprehenderit modi explicabo perferendis porro obcaecati eum dolore cumque recusandae vel?</p>
+      </div>
+      <div class='skills'>
+        <h2>Stuff I'm Good At:</h2>
+        <ol>
+          <li>Fishing</li>
+          <li>Coding UI</li>
+          <li>Gaming</li>
+          <li>HTML</li>
+          <li>CSS</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+  <section class='history'>
+    <h2>Work History</h2>
+    <table style='width:100%'>
+      <tr>
+        <th>Yrs</th>
+        <th>Company</th>
+        <th>Title</th>
+        <th>Tech Used</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Apple</td>
+        <td>Software Engineer</td>
+        <td>Swift</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Microsoft</td>
+        <td>Computer Scientist</td>
+        <td>.NET</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Amazon</td>
+        <td>Dev Ops</td>
+        <td>AWS</td>
+      </tr>
+    </table>
+  </section>
+  <section class='contact'>
+    <h2>Contact Me:</h2>
+      <div>Name: <input type='text' placeholder='Enter Name'></div>
+      <div>Email: <input type='text' placeholder='Enter your email'></div>
+      <div>Phone Number: <input type='text' placeholder='Phone Number'></div>
+      <button type='submit'>Submit</button>
+  </section>
+  <footer>
+    <div>
+      Copyright Awesomeness 2018
+    </div>
+  </footer>
 </body>
 </html>
