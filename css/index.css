@@ -142,10 +142,12 @@ body {
 }
 h1 {
   font-size: 2em;
+  font-family: 'Oswald', sans-serif;
 }
 h2 {
   font-size: 1.5em;
   font-weight: bold;
+  font-family: 'Merriweather', serif;
 }
 header {
   display: flex;
@@ -283,11 +285,6 @@ header a {
   padding: 1.5%;
   border: 1px solid grey;
   border-radius: 5px;
-}
-.history {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 @media screen and (max-width: 500px) {
   .history h2 {
